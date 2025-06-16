@@ -6,7 +6,7 @@ type Project = {
 	title: string;
 	description: string;
 	technologies: string[];
-	link: string;
+	link?: string;
 };
 
 const Projets = () => {
@@ -50,12 +50,14 @@ const Projets = () => {
 									{tech}
 								</span>
 							))}
-							<a
-								href={project.link}
-								className="cursor-pointer hover:text-neutral-700 text-sm flex mt-2"
-							>
-								{project.link}
-							</a>
+							{project.link && (
+								<a
+									href={project.link}
+									className="cursor-pointer hover:text-neutral-700 text-sm flex mt-2"
+								>
+									{project.link}
+								</a>
+							)}
 						</motion.div>
 					</div>
 				))}

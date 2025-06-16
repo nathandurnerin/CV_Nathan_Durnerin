@@ -1,10 +1,9 @@
-import React from "react";
 import Navbar from "./components/Navbar";
 import Description from "./components/Description";
 import Skills from "./components/Skills";
 import Experiences from "./components/Expériences";
 import Projets from "./components/Projets";
-import Contact from "./components/Contact"
+import Contact from "./components/Contact";
 import ScrollToTopButton from "./components/scrollbutton";
 
 const App = () => {

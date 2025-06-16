@@ -1,4 +1,4 @@
-import Navbar from "./components/Navbar";
+import Navbar from "./components/navbar";
 import Description from "./components/Description";
 import Skills from "./components/Skills";
 import Experiences from "./components/Expériences";

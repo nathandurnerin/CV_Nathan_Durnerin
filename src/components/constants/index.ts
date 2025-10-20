@@ -1,6 +1,7 @@
 const wildEatsImg = "/WildEats.png";
 const JardinAlsacienImg = "/JardinAlsacien.png";
 const CvNathanImg = "/CvNathan.png";
+const TakuTakuImg = "/TakuTakuImg.png"
 
 export const HERO_CONTENT = "On dit souvent de moi que je suis une personne empathique, à l’écoute et capable de m’intégrer naturellement dans une équipe. Travailler avec moi, c’est collaborer avec quelqu’un de toujours enthousiaste, qui allie intuition et sens de la cohésion pour créer un environnement bienveillant et constructif.";
 
@@ -44,27 +45,35 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
 	{
-		title: "Wild Eats",
-		image: wildEatsImg,
-		link: "https://nathandurnerin.github.io/Projet-Wild-Eats/",
+		title: "CV & Portfolio",
+		image: CvNathanImg,
 		description:
-			"Premier projet de groupe après un mois de formation : ce site recense les différentes options de restauration disponibles pour les étudiants de la Wild Code School.",
-		technologies: ["HTML", "CSS", "JavaScript"],
+		"Un portfolio personnel présentant mes expériences, mes compétences et mes projets.",
+		technologies: ["HTML", "CSS", "React", "JavaScript", "Tailwind"],
+	},
+	{
+		title: "TakuTaku",
+		image: TakuTakuImg,
+		link: "https://takutaku-app.vercel.app/",
+		description:
+		"Troisième projet de groupe après 3 mois de formation : Un site de streaming pour visionner vos animés préférés.",
+		technologies: ["HTML", "CSS", "React", "JavaScript","Supabase", "Tailwind"],
 	},
 	{
 		title: "Le jardin Alsacien",
 		image: JardinAlsacienImg,
 		link: "https://strasbouq-client.vercel.app/",
 		description:
-			"Deuxième projet de groupe après deux mois de formation : ce site e-commerce permet d’acheter des bouquets de fleurs livrables dans la région de Strasbourg.",
-		technologies: ["HTML", "CSS", "React", "JavaScript","Local Storage"],
+			"Deuxième projet de groupe après 2 mois de formation : ce site e-commerce permet d’acheter des bouquets de fleurs livrables dans la région de Strasbourg.",
+		technologies: ["HTML", "CSS", "React", "JavaScript","Local Storage", "Tailwind"],
 	},
 	{
-		title: "CV & Portfolio",
-		image: CvNathanImg,
+		title: "Wild Eats",
+		image: wildEatsImg,
+		link: "https://nathandurnerin.github.io/Projet-Wild-Eats/",
 		description:
-			"A personal portfolio website showcasing projects, skills, and contact information.",
-		technologies: ["HTML", "CSS", "React", "JavaScript"],
+			"Premier projet de groupe après 1 mois de formation : ce site recense les différentes options de restauration disponibles pour les étudiants de la Wild Code School.",
+		technologies: ["HTML", "CSS", "JavaScript"],
 	},
 ];
 

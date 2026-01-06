@@ -17,15 +17,9 @@ export function Marquee({
   ...props
 }: MarqueeProps) {
   return (
-    <div 
-      className={cn(
-        "sm:mt-10 z-10",
-        className
-      )} 
-      {...props}
-    >
-      <div className="relative flex max-w-[100vw] overflow-hidden pt-9">
-        <div 
+    <div className={cn("w-full", className)} {...props}>
+      <div className="relative w-full overflow-hidden">
+        <div
           className={cn(
             "flex w-max animate-marquee",
             pauseOnHover && "hover:[animation-play-state:paused]",
@@ -38,5 +32,5 @@ export function Marquee({
         </div>
       </div>
     </div>
-  )
+  );
 }

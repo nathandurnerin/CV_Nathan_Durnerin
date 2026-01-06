@@ -16,7 +16,7 @@ function App() {
 
 		if (seen) {
 			setShowIntro(false);
-			window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+			window.scrollTo(0, 0);
 			return;
 		}
 
@@ -24,11 +24,10 @@ function App() {
 			sessionStorage.setItem("introSeen", "true");
 			setShowIntro(false);
 
-			// 🔥 FIX DÉFINITIF
 			requestAnimationFrame(() => {
-				window.scrollTo({ top: 0, left: 0, behavior: "auto" });
+				window.scrollTo(0, 0);
 			});
-		}, 3500);
+		}, 1000); // durée FIXE de l’intro
 
 		return () => clearTimeout(timer);
 	}, []);

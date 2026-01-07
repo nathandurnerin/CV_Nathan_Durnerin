@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import ScrollToTop from "@/components/ScrollToTop";
 import PageTransition from "@/components/PageTransition";
@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 import Intro from "@/components/Intro";
 
 function App() {
+	const location = useLocation();
 	const [showIntro, setShowIntro] = useState(true);
 
 	useEffect(() => {

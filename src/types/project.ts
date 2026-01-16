@@ -27,6 +27,7 @@ export interface Project {
 			list?: string[];
 			items?: {
 				name: string;
+				image: string;
 				description: string;
 			}[];
 			next?: string[];

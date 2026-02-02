@@ -518,8 +518,135 @@ export const FILTERS: Filter[] = [
             ],
           },
           research: {
-            title: "Recherches graphique",
-            gallery: ["/Renoveo_planche.jpg"],
+            title: "Charte graphique",
+            gallery: ["/Charte_graphique_Renoveo.jpg"],
+          },
+        },
+      },
+      {
+        name: "NHN",
+        slug: "LogoNHN",
+        title: "NHN : Création du logo et de l’identité visuelle du portfolio",
+        description:
+          "Logo personnel et identité graphique pour un portfolio orienté développement web.",
+        type: "Projet personnel — Portfolio & Identité visuelle",
+        stack: ["Développement web", "UX/UI Design", "Identité visuelle"],
+        image: "/Service_NHN.jpg",
+
+        content: {
+          context: {
+            title: "Contexte du projet",
+            body: [
+              "NHN est un site portfolio personnel regroupant l’ensemble de mes projets.",
+              "Il présente principalement des réalisations en développement web, UX/UI design et, ponctuellement, en identité visuelle.",
+              "Ce projet concerne la création du logo et de l’identité visuelle du portfolio.",
+            ],
+          },
+
+          goals: {
+            title: "Objectifs de l’identité visuelle",
+            list: [
+              "Créer une identité personnelle forte et reconnaissable",
+              "Mettre en valeur des projets orientés développement web",
+              "Assurer une cohérence visuelle sur l’ensemble du site",
+              "Concevoir une identité moderne, sobre et fonctionnelle",
+            ],
+          },
+
+          process: {
+            title: "Processus de création",
+            list: [
+              "Réflexion autour de mon positionnement en tant que développeur web",
+              "Construction d’un monogramme à partir de mon prénom",
+              "Recherche de formes géométriques évoquant structure et logique",
+              "Déclinaisons et intégration du logo dans le portfolio",
+            ],
+          },
+
+          outcome: {
+            title: "Résultat final",
+            body: [
+              "Un logo personnel structuré et identifiable.",
+              "Une identité visuelle cohérente, pensée pour un usage numérique.",
+            ],
+          },
+
+          learnings: {
+            title: "Apprentissages",
+            body: [
+              "Meilleure compréhension du lien entre identité visuelle et développement web",
+              "Renforcement de ma capacité à concevoir des interfaces cohérentes",
+              "Vision globale d’un projet web, de l’identité à l’intégration",
+            ],
+          },
+
+          research: {
+            title: "Charte graphique",
+            gallery: ["/Charte_graphique_NHN.jpg"],
+          },
+        },
+      },
+      {
+        name: "BeforeCode",
+        slug: "LogoBeforeCode",
+        title:
+          "BeforeCode : Création du logo et de l’identité visuelle d'un SaaS",
+        description:
+          "Logo et identité visuelle pour une application de wireframing destinée aux développeurs web.",
+        type: "Projet personnel — SaaS & Identité visuelle",
+        stack: ["Branding", "Logo Design", "UX/UI", "Produit digital"],
+        image: "/Service_BeforeCode.jpg",
+
+        content: {
+          context: {
+            title: "Contexte du projet",
+            body: [
+              "BeforeCode est un SaaS en cours de développement destiné aux développeurs web non designers.",
+              "L’application a pour objectif de faciliter la création de wireframes structurés et exploitables avant le développement.",
+              "Ce projet concerne la création du logo et de l’identité visuelle de l’application.",
+            ],
+          },
+
+          goals: {
+            title: "Objectifs de l’identité visuelle",
+            list: [
+              "Créer une identité claire et reconnaissable",
+              "Évoquer la structure et la logique du wireframing",
+              "S’adresser à une cible de développeurs web",
+              "Assurer une cohérence avec un produit orienté UX",
+            ],
+          },
+
+          process: {
+            title: "Processus de création",
+            list: [
+              "Analyse des besoins des développeurs non designers",
+              "Recherche de symboles liés au code et à la structure",
+              "Exploration de formes modulaires et géométriques",
+              "Déclinaisons du logo pour une interface SaaS",
+            ],
+          },
+
+          outcome: {
+            title: "Résultat final",
+            body: [
+              "Un logo moderne et fonctionnel, adapté à un produit SaaS.",
+              "Une identité visuelle cohérente avec l’univers du wireframing et du développement web.",
+            ],
+          },
+
+          learnings: {
+            title: "Apprentissages",
+            body: [
+              "Approfondissement de la conception d’identité pour un produit SaaS",
+              "Meilleure compréhension du lien entre UX et développement",
+              "Capacité à concevoir une identité au service d’un outil fonctionnel",
+            ],
+          },
+
+          research: {
+            title: "Charte graphique",
+            gallery: ["/Charte_graphique_BeforeCode.jpg"],
           },
         },
       },

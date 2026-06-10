@@ -463,6 +463,71 @@ export const FILTERS: Filter[] = [
       "Des logos et identités visuelles conçus pour transmettre des valeurs fortes et offrir une image cohérente et mémorable.",
     projects: [
       {
+        name: "BeforeCode",
+        slug: "LogoBeforeCode",
+        title:
+          "BeforeCode : Création du logo et de l’identité visuelle d'un SaaS",
+        description:
+          "Logo et identité visuelle pour une application de wireframing destinée aux développeurs web.",
+        type: "Projet personnel — SaaS & Identité visuelle",
+        stack: ["Branding", "Logo Design", "UX/UI", "Produit digital"],
+        image: "/Service_BeforeCode.jpg",
+
+        content: {
+          context: {
+            title: "Contexte du projet",
+            body: [
+              "BeforeCode est un SaaS en cours de développement destiné aux développeurs web non designers.",
+              "L’application a pour objectif de faciliter la création de wireframes structurés et exploitables avant le développement.",
+              "Ce projet concerne la création du logo et de l’identité visuelle de l’application.",
+            ],
+          },
+
+          goals: {
+            title: "Objectifs de l’identité visuelle",
+            list: [
+              "Créer une identité claire et reconnaissable",
+              "Évoquer la structure et la logique du wireframing",
+              "S’adresser à une cible de développeurs web",
+              "Assurer une cohérence avec un produit orienté UX",
+            ],
+          },
+
+          process: {
+            title: "Processus de création",
+            list: [
+              "Analyse des besoins des développeurs non designers",
+              "Recherche de symboles liés au code et à la structure",
+              "Exploration de formes modulaires et géométriques",
+              "Déclinaisons du logo pour une interface SaaS",
+            ],
+          },
+
+          outcome: {
+            title: "Résultat final",
+            body: [
+              "Un logo moderne et fonctionnel, adapté à un produit SaaS.",
+              "Une identité visuelle cohérente avec l’univers du wireframing et du développement web.",
+            ],
+          },
+
+          learnings: {
+            title: "Apprentissages",
+            body: [
+              "Approfondissement de la conception d’identité pour un produit SaaS",
+              "Meilleure compréhension du lien entre UX et développement",
+              "Capacité à concevoir une identité au service d’un outil fonctionnel",
+            ],
+          },
+
+          research: {
+            title: "Charte graphique",
+            gallery: ["/Charte_graphique_BeforeCode.jpg"],
+          },
+        },
+      },
+      
+      {
         name: "Renoveo",
         slug: "LogoRenoveo",
         title: "Renoveo : Création du logo et de l’identité visuelle",
@@ -586,70 +651,7 @@ export const FILTERS: Filter[] = [
           },
         },
       },
-      {
-        name: "BeforeCode",
-        slug: "LogoBeforeCode",
-        title:
-          "BeforeCode : Création du logo et de l’identité visuelle d'un SaaS",
-        description:
-          "Logo et identité visuelle pour une application de wireframing destinée aux développeurs web.",
-        type: "Projet personnel — SaaS & Identité visuelle",
-        stack: ["Branding", "Logo Design", "UX/UI", "Produit digital"],
-        image: "/Service_BeforeCode.jpg",
-
-        content: {
-          context: {
-            title: "Contexte du projet",
-            body: [
-              "BeforeCode est un SaaS en cours de développement destiné aux développeurs web non designers.",
-              "L’application a pour objectif de faciliter la création de wireframes structurés et exploitables avant le développement.",
-              "Ce projet concerne la création du logo et de l’identité visuelle de l’application.",
-            ],
-          },
-
-          goals: {
-            title: "Objectifs de l’identité visuelle",
-            list: [
-              "Créer une identité claire et reconnaissable",
-              "Évoquer la structure et la logique du wireframing",
-              "S’adresser à une cible de développeurs web",
-              "Assurer une cohérence avec un produit orienté UX",
-            ],
-          },
-
-          process: {
-            title: "Processus de création",
-            list: [
-              "Analyse des besoins des développeurs non designers",
-              "Recherche de symboles liés au code et à la structure",
-              "Exploration de formes modulaires et géométriques",
-              "Déclinaisons du logo pour une interface SaaS",
-            ],
-          },
-
-          outcome: {
-            title: "Résultat final",
-            body: [
-              "Un logo moderne et fonctionnel, adapté à un produit SaaS.",
-              "Une identité visuelle cohérente avec l’univers du wireframing et du développement web.",
-            ],
-          },
-
-          learnings: {
-            title: "Apprentissages",
-            body: [
-              "Approfondissement de la conception d’identité pour un produit SaaS",
-              "Meilleure compréhension du lien entre UX et développement",
-              "Capacité à concevoir une identité au service d’un outil fonctionnel",
-            ],
-          },
-
-          research: {
-            title: "Charte graphique",
-            gallery: ["/Charte_graphique_BeforeCode.jpg"],
-          },
-        },
-      },
+      
     ],
   },
 ];

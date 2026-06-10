@@ -107,7 +107,7 @@ function Layout() {
 						}}
 						className="group flex items-center gap-5 font-semibold text-primary md:text-sm lg:text-base cursor-pointer"
 					>
-						Découvrez plus de projets
+						Découvrez mes projets
 						<ArrowRight className="group-hover:rotate-90 duration-300" />
 					</button>
 				</HoverCard>

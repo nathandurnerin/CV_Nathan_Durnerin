@@ -48,11 +48,11 @@ function Layout() {
 				<HoverCard className="card2 w-full min-h-[220px] md:col-span-4 md:h-[220px] bg-white">
 					<div className="flex flex-col justify-center items-center h-full gap-4 text-center">
 						<div>
-							<p className="text-3xl font-bold text-tertiary">+4</p>
+							<p className="text-3xl font-bold text-tertiary">+5</p>
 							<p className="text-sm">Projets réalisés</p>
 						</div>
 						<div>
-							<p className="text-3xl font-bold text-tertiary">1+</p>
+							<p className="text-3xl font-bold text-tertiary">2+</p>
 							<p className="text-sm">Année d’expérience</p>
 						</div>
 						<div>

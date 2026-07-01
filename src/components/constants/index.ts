@@ -10,352 +10,166 @@ export const FILTERS: Filter[] = [
       "Des projets web conçus de bout en bout, de l’architecture technique à l’interface utilisateur, avec un focus sur la performance et l’expérience.",
     projects: [
       {
-        name: "Takutaku",
-        slug: "Takutaku",
-        title: "Takutaku : Le streaming d’animés Japonais",
-        type: "Projet de groupe — Formation développeur web",
-        stack: ["React", "JavaScript", "Supabase", "Tailwind"],
-        description: "Regardez vos animés préférés sur mobile, tablette et PC.",
-        image: "/Projet_Takutaku.jpg",
+        name: "BeforeCode",
+        slug: "beforecode",
+        title: "BeforeCode",
+        type: "SaaS",
+        stack: [
+          "Next.js",
+          "TypeScript",
+          "Supabase",
+          "Stripe",
+          "Tailwind",
+          "Vercel",
+        ],
+        description:
+          "Un outil pour transformer une idée floue en structure claire avant de passer au design ou au développement.",
+        image: "/Login.jpg",
 
         content: {
-          context: {
-            title: "Contexte du projet",
+          intro: {
+            title: "Structurer avant de coder.",
             body: [
-              "Takutaku est un site web fictif de streaming d’animés japonais, conçu pour proposer une expérience fluide, moderne et accessible sur mobile, tablette et ordinateur.",
-              "Le projet s’inspire des usages des grandes plateformes de streaming, tout en mettant l’accent sur la clarté de l’interface et la simplicité de navigation.",
-              "Ce projet a été réalisé en groupe dans le cadre de ma formation de développeur web.",
-              "L’objectif était de simuler un projet professionnel complet, depuis la conception jusqu’au développement d’une application web fonctionnelle.",
+              "BeforeCode aide à poser les bases d’un projet web : type d’application, pages, sections, wireframe et première vision d’interface.",
             ],
           },
 
-          goals: {
-            title: "Objectifs & intentions",
+          highlights: {
             list: [
-              "Concevoir une application web réaliste et fonctionnelle",
-              "Mettre en pratique React dans un projet de taille intermédiaire",
-              "Implémenter une authentification utilisateur",
-              "Travailler sur une interface inspirée des plateformes de streaming",
+              "Clarifier une idée rapidement",
+              "Composer une structure de page",
+              "Gérer projets, crédits et paiements",
             ],
           },
 
-          role: {
-            title: "Mon rôle dans le projet",
-            list: [
-              "Intégration des interfaces avec React",
-              "Mise en place du design avec Tailwind CSS",
-              "Connexion à Supabase pour l’authentification",
-              "Réflexion sur l’expérience utilisateur",
+          gallery: {
+            gallery: [
+              "/beforecode.png",
+              "/LandingFullSize.png",
+              "/IAProjection.png",
             ],
-          },
-
-          stackDetails: {
-            title: "Stack technique & choix effectués",
-            items: [
-              {
-                name: "React",
-                image: "https://skillicons.dev/icons?i=react",
-                description:
-                  "Utilisé pour construire une interface dynamique et modulaire.",
-              },
-              {
-                name: "Supabase",
-                image: "https://skillicons.dev/icons?i=supabase",
-                description:
-                  "Choisi pour gérer rapidement l’authentification et la base de données.",
-              },
-              {
-                name: "Tailwind CSS",
-                image: "https://skillicons.dev/icons?i=tailwindcss",
-                description:
-                  "Permet une intégration rapide et cohérente des interfaces.",
-              },
-              {
-                name: "Vercel",
-                image: "https://skillicons.dev/icons?i=vercel",
-                description:
-                  "Utilisé pour héberger et déployer l’application à partir du dépôt Git.",
-              },
-            ],
-          },
-
-          features: {
-            title: "Fonctionnalités principales",
-            list: [
-              "Création de compte et connexion utilisateur",
-              "Catalogue d’animés consultable",
-              "Ajout d’animés en favoris",
-              "Interface responsive",
-            ],
-          },
-
-          challenges: {
-            title: "Défis rencontrés & solutions",
-            body: [
-              "L’un des principaux défis a été la gestion des données utilisateurs, notamment l’authentification et les informations liées aux favoris.",
-              "Une structuration claire des composants React a permis de résoudre cela.",
-            ],
-          },
-
-          outcome: {
-            title: "Résultat final",
-            body: [
-              "Le projet aboutit à une application fonctionnelle, stable et agréable à utiliser.",
-            ],
-          },
-
-          learnings: {
-            title: "Apprentissages & perspectives",
-            body: [
-              "Renforcement des compétences en React",
-              "Découverte de Supabase dans un projet réel",
-              "Amélioration du travail en équipe",
-            ],
-            next: [
-              "Système de recommandations",
-              "Gestion avancée de la progression",
-            ],
-          },
-          research: {
-            title: "Maquettage & BDD",
-            gallery: ["/supabase.png", "/Figma_taku1.png", "/figma_taku2.png"],
           },
         },
 
         links: {
-          name: "Accéder au site",
+          name: "Découvrir le site",
+          url: "https://beforecode.app/",
+        },
+      },
+      {
+        name: "Takutaku",
+        slug: "Takutaku",
+        title: "Takutaku",
+        type: "Projet de groupe",
+        stack: ["React", "JavaScript", "Supabase", "Tailwind"],
+        description:
+          "Une plateforme fictive de streaming d’animés, pensée pour une navigation fluide sur mobile, tablette et desktop.",
+        image: "/Projet_Takutaku.jpg",
+
+        content: {
+          intro: {
+            title: "Regarder, explorer, sauvegarder.",
+            body: [
+              "Takutaku propose une expérience inspirée des plateformes de streaming, avec un catalogue d’animés, une interface responsive et une gestion des favoris.",
+            ],
+          },
+
+          highlights: {
+            list: [
+              "Explorer un catalogue d’animés",
+              "Sauvegarder ses favoris",
+              "Naviguer facilement sur tous les écrans",
+            ],
+          },
+
+          gallery: {
+            gallery: [
+              "/takutaku-app.vercel.app_.png",
+              "/takutaku-app.vercel.app_ (1).png",
+              "/takutaku-app.vercel.app_ (2).png",
+            ],
+          },
+        },
+
+        links: {
+          name: "Découvrir le site",
           url: "https://takutaku-app.vercel.app/",
         },
       },
 
       {
-        name: "Wild Eats",
-        slug: "WildEats",
-        title: "Wild Eats : Commandez vos repas rapidement et simplement.",
-        type: "Projet de groupe — Formation développeur web",
-        stack: ["HTML", "CSS", "JavaScript"],
-        description: "Commandez vos plats préférés sur place ou à emporter",
-        image: "/Projet_Wildeats.jpg",
-
-        links: {
-          name: "Accéder au site",
-          url: "https://nathandurnerin.github.io/Projet-Wild-Eats/",
-        },
+        name: "Le Jardin Alsacien",
+        slug: "JardinAlsacien",
+        title: "Le Jardin Alsacien",
+        type: "Projet de groupe",
+        stack: ["React", "JavaScript", "Local Storage", "Tailwind"],
+        description:
+          "Un site de commande de bouquets pensé pour une expérience locale, simple et chaleureuse.",
+        image: "/Projet_Jardin.jpg",
 
         content: {
-          context: {
-            title: "Contexte du projet",
+          intro: {
+            title: "Commander des fleurs simplement.",
             body: [
-              "Wild Eats est une plateforme de commande de repas en ligne permettant aux utilisateurs de commander sur place ou à emporter via une interface simple et intuitive.",
-              "Le projet met l’accent sur la rapidité du parcours utilisateur et la clarté des informations essentielles.",
-              "Ce projet a été réalisé en groupe dans le cadre de ma formation de développeur web.",
-              "L’objectif était de concevoir un site web fonctionnel sans framework, en utilisant uniquement HTML, CSS et JavaScript.",
+              "Le Jardin Alsacien met en avant une boutique de bouquets avec un parcours clair, une gestion du panier côté navigateur et une interface responsive.",
             ],
           },
 
-          goals: {
-            title: "Objectifs & intentions",
+          highlights: {
             list: [
-              "Comprendre la structuration d’un site web dynamique sans framework",
-              "Mettre en place un parcours de commande clair et efficace",
-              "Travailler la lisibilité et l’ergonomie d’une interface orientée utilisateur",
-              "Apprendre à collaborer sur un projet web en équipe",
+              "Découvrir les bouquets disponibles",
+              "Ajouter ses fleurs au panier",
+              "Commander avec une interface simple",
             ],
           },
 
-          role: {
-            title: "Mon rôle dans le projet",
-            list: [
-              "Intégration HTML et CSS des différentes pages",
-              "Développement de la logique JavaScript côté client",
-              "Participation à la conception du parcours utilisateur",
-              "Collaboration avec les autres membres du groupe pour assurer la cohérence globale",
+          gallery: {
+            gallery: [
+              "/strasbouq-client.vercel.app_.png",
+              "/strasbouq-client.vercel.app_ (1).png",
             ],
           },
+        },
 
-          stackDetails: {
-            title: "Stack technique & choix effectués",
-            items: [
-              {
-                name: "HTML",
-                image: "https://skillicons.dev/icons?i=html",
-                description:
-                  "Utilisé pour structurer clairement les pages et les différentes sections de contenu.",
-              },
-              {
-                name: "CSS",
-                image: "https://skillicons.dev/icons?i=css",
-                description:
-                  "Employé pour créer une interface lisible et responsive, adaptée à différents formats d’écran.",
-              },
-              {
-                name: "JavaScript",
-                image: "https://skillicons.dev/icons?i=js",
-                description:
-                  "Utilisé pour gérer les interactions utilisateur et la logique de commande.",
-              },
-            ],
-          },
-
-          features: {
-            title: "Fonctionnalités principales",
-            list: [
-              "Consultation des menus disponibles",
-              "Ajout de plats au panier",
-              "Gestion du panier côté client",
-              "Parcours de commande simple et rapide",
-            ],
-          },
-
-          challenges: {
-            title: "Défis rencontrés & solutions",
-            body: [
-              "L’un des principaux défis a été la gestion de l’état du panier sans framework.",
-              "Nous avons structuré la logique JavaScript de manière claire afin de garantir un comportement fiable et compréhensible.",
-            ],
-          },
-
-          outcome: {
-            title: "Résultat final",
-            body: [
-              "Wild Eats aboutit à une plateforme fonctionnelle permettant de simuler un parcours de commande complet.",
-              "Le site est simple, efficace et respecte les objectifs pédagogiques du projet.",
-            ],
-          },
-
-          learnings: {
-            title: "Apprentissages & perspectives",
-            body: [
-              "Meilleure compréhension du JavaScript natif",
-              "Importance de la clarté dans un parcours utilisateur",
-              "Expérience concrète du travail en équipe",
-            ],
-            next: [
-              "Ajout d’un backend pour persister les commandes",
-              "Amélioration de l’accessibilité",
-              "Optimisation du design pour mobile",
-            ],
-          },
-          research: {
-            title: "",
-            gallery: ["/"],
-          },
+        links: {
+          name: "Découvrir le site",
+          url: "https://strasbouq-client.vercel.app/",
         },
       },
       {
-        name: "Le Jardin Alsacien",
-        slug: "JardinAlsacien",
-        title:
-          "Le Jardin Alsacien : Commandez des bouquets en région alsacienne",
-        type: "Projet de groupe — Formation développeur web",
-        stack: ["React", "JavaScript", "Local Storage", "Tailwind"],
+        name: "Wild Eats",
+        slug: "WildEats",
+        title: "Wild Eats",
+        type: "Projet de groupe",
+        stack: ["HTML", "CSS", "JavaScript"],
         description:
-          "Commandez de magnifiques bouquets de fleurs en région Alsacienne.",
-        image: "/Projet_Jardin.jpg",
-
-        links: {
-          name: "Accéder au site",
-          url: "https://strasbouq-client.vercel.app/",
-        },
+          "Une interface de commande de repas simple et rapide, développée sans framework.",
+        image: "/Projet_Wildeats.jpg",
 
         content: {
-          context: {
-            title: "Contexte du projet",
+          intro: {
+            title: "Commander sans perdre de temps.",
             body: [
-              "Le Jardin Alsacien est un site de commande de bouquets de fleurs destiné à une clientèle locale en région alsacienne.",
-              "Le projet met en avant une expérience simple et chaleureuse, tout en valorisant l’aspect artisanal et local.",
-              "Ce projet a été réalisé en groupe dans le cadre de ma formation de développeur web.",
-              "L’objectif était de concevoir un site de commande en ligne sans backend complexe, en s’appuyant sur React et le Local Storage.",
+              "Wild Eats permet de consulter un menu, ajouter des plats au panier et simuler un parcours de commande clair, rapide et accessible.",
             ],
           },
 
-          goals: {
-            title: "Objectifs & intentions",
+          highlights: {
             list: [
-              "Créer une interface e-commerce simple et accessible",
-              "Mettre en place une gestion de panier côté client",
-              "Valoriser une identité locale et artisanale",
-              "Travailler sur l’expérience utilisateur d’un site de commande",
+              "Consulter les plats disponibles",
+              "Ajouter des produits au panier",
+              "Finaliser une commande simplement",
             ],
           },
 
-          role: {
-            title: "Mon rôle dans le projet",
-            list: [
-              "Développement front-end avec React",
-              "Gestion du panier via le Local Storage",
-              "Intégration de l’interface avec Tailwind CSS",
-              "Participation à la réflexion UX et à la structure des pages",
-            ],
+          gallery: {
+            gallery: ["/Projet-Wild-Eats.png"],
           },
+        },
 
-          stackDetails: {
-            title: "Stack technique & choix effectués",
-            items: [
-              {
-                name: "React",
-                image: "https://skillicons.dev/icons?i=react",
-                description:
-                  "Utilisé pour structurer l’application et gérer dynamiquement l’interface utilisateur.",
-              },
-              {
-                name: "Local/Session Storage",
-                image: "",
-                description:
-                  "Employé pour stocker temporairement les informations du panier sans backend.",
-              },
-              {
-                name: "Tailwind CSS",
-                image: "https://skillicons.dev/icons?i=tailwindcss",
-                description:
-                  "Permet de créer rapidement une interface cohérente, responsive et moderne.",
-              },
-            ],
-          },
-
-          features: {
-            title: "Fonctionnalités principales",
-            list: [
-              "Consultation des bouquets disponibles",
-              "Ajout de produits au panier",
-              "Gestion du panier via le navigateur",
-              "Interface responsive adaptée à tous les écrans",
-            ],
-          },
-
-          challenges: {
-            title: "Défis rencontrés & solutions",
-            body: [
-              "La gestion du panier sans backend représentait un défi important.",
-              "L’utilisation du Local Storage a permis de conserver les données utilisateur tout au long de la navigation.",
-            ],
-          },
-
-          outcome: {
-            title: "Résultat final",
-            body: [
-              "Le projet aboutit à un site de commande fonctionnel et cohérent.",
-              "L’interface offre une expérience fluide et rassurante pour l’utilisateur.",
-            ],
-          },
-
-          learnings: {
-            title: "Apprentissages & perspectives",
-            body: [
-              "Approfondissement de React dans un contexte e-commerce",
-              "Compréhension des limites du stockage côté client",
-              "Amélioration du travail en équipe sur un projet commun",
-            ],
-            next: [
-              "Ajout d’un backend pour gérer les commandes",
-              "Système de paiement simulé",
-              "Optimisation des performances et de l’accessibilité",
-            ],
-          },
-          research: {
-            title: "Recherches graphique",
-            gallery: ["/figma_jardin2.png", "/figma_jardin.png"],
-          },
+        links: {
+          name: "Découvrir le site",
+          url: "https://nathandurnerin.github.io/Projet-Wild-Eats/",
         },
       },
     ],
@@ -378,74 +192,34 @@ export const FILTERS: Filter[] = [
         image: "/Projet_Renoveo.jpg",
 
         links: {
-          name: "En cours de développement",
-          url: "",
+          name: "Découvrir le site",
+          url: "https://renoveo.app/",
         },
 
         content: {
-          context: {
-            title: "Contexte du projet",
+          intro: {
+            title: "Simplifier une estimation travaux.",
             body: [
-              "Renoveo est une plateforme d’estimation de travaux immobiliers.",
-              "Ce projet consiste en une refonte complète de l’interface et de l’expérience utilisateur, réalisée dans une démarche personnelle.",
-              "Issu d’un parcours de graphiste, j’ai souhaité travailler sur un cas concret de refonte UI / UX.",
-              "L’objectif était d’améliorer la lisibilité, l’ergonomie et la compréhension du parcours d’estimation.",
+              "Renoveo est une refonte UI / UX pensée pour rendre un parcours d’estimation immobilière plus clair, plus moderne et plus rassurant.",
             ],
           },
 
-          problem: {
-            title: "Problématiques identifiées",
+          highlights: {
             list: [
-              "Parcours utilisateur complexe",
-              "Manque de hiérarchisation de l’information",
-              "Interface visuellement datée",
-              "Peu rassurant pour l’utilisateur",
+              "Clarifier le parcours utilisateur",
+              "Moderniser l’interface",
+              "Rendre l’estimation plus lisible",
             ],
           },
 
-          approach: {
-            title: "Démarche UI / UX",
-            list: [
-              "Analyse des parcours existants",
-              "Simplification des étapes clés",
-              "Refonte des écrans principaux",
-              "Travail sur la hiérarchie visuelle et la lisibilité",
-            ],
-          },
-
-          role: {
-            title: "Mon rôle",
-            body: [
-              "J’ai travaillé exclusivement sur la refonte UI / UX du produit, sans intervenir sur le développement du site.",
-            ],
-          },
-
-          outcome: {
-            title: "Résultat de la refonte",
-            body: [
-              "Une interface plus claire, moderne et rassurante.",
-              "Un parcours utilisateur simplifié, facilitant la compréhension du service proposé.",
-            ],
-          },
-
-          learnings: {
-            title: "Apprentissages",
-            body: [
-              "Renforcement de ma méthodologie UX",
-              "Meilleure compréhension des enjeux de lisibilité et de conversion",
-              "Capacité à concevoir une interface orientée utilisateur",
-            ],
-          },
-          research: {
-            title: "Optimisation graphique",
+          gallery: {
             gallery: [
-              "/figma_renoveo.png",
               "/figma_renoveo7.png",
-              "/figma_renoveo3.png",
+
               "/figma_renoveo9.png",
-              "/figma_renoveo4.png",
+
               "/figma_renoveo10.png",
-              "/figma_renoveo2.png",
+
               "/figma_renoveo12.png",
               "/figma_renoveo5.png",
               "/figma_renoveo13.png",
@@ -474,59 +248,27 @@ export const FILTERS: Filter[] = [
         image: "/Service_BeforeCode.jpg",
 
         content: {
-          context: {
-            title: "Contexte du projet",
+          intro: {
+            title: "Une identité pour un outil de wireframing.",
             body: [
-              "BeforeCode est un SaaS en cours de développement destiné aux développeurs web non designers.",
-              "L’application a pour objectif de faciliter la création de wireframes structurés et exploitables avant le développement.",
-              "Ce projet concerne la création du logo et de l’identité visuelle de l’application.",
+              "L’identité de BeforeCode a été pensée pour évoquer la structure, la clarté et l’univers du développement web.",
             ],
           },
 
-          goals: {
-            title: "Objectifs de l’identité visuelle",
+          highlights: {
             list: [
-              "Créer une identité claire et reconnaissable",
-              "Évoquer la structure et la logique du wireframing",
-              "S’adresser à une cible de développeurs web",
-              "Assurer une cohérence avec un produit orienté UX",
+              "Créer une identité reconnaissable",
+              "Évoquer la logique du wireframe",
+              "Adapter le logo à un produit SaaS",
             ],
           },
 
-          process: {
-            title: "Processus de création",
-            list: [
-              "Analyse des besoins des développeurs non designers",
-              "Recherche de symboles liés au code et à la structure",
-              "Exploration de formes modulaires et géométriques",
-              "Déclinaisons du logo pour une interface SaaS",
-            ],
-          },
-
-          outcome: {
-            title: "Résultat final",
-            body: [
-              "Un logo moderne et fonctionnel, adapté à un produit SaaS.",
-              "Une identité visuelle cohérente avec l’univers du wireframing et du développement web.",
-            ],
-          },
-
-          learnings: {
-            title: "Apprentissages",
-            body: [
-              "Approfondissement de la conception d’identité pour un produit SaaS",
-              "Meilleure compréhension du lien entre UX et développement",
-              "Capacité à concevoir une identité au service d’un outil fonctionnel",
-            ],
-          },
-
-          research: {
-            title: "Charte graphique",
-            gallery: ["/Charte_graphique_BeforeCode.jpg"],
+          gallery: {
+            gallery: ["/Charte_graphique_BeforeCode - Copie.jpg","/Charte_graphique_BeforeCode.jpg"],
           },
         },
       },
-      
+
       {
         name: "Renoveo",
         slug: "LogoRenoveo",
@@ -537,54 +279,23 @@ export const FILTERS: Filter[] = [
         image: "/Service_Renoveo.jpg",
 
         content: {
-          context: {
-            title: "Contexte du projet",
+          intro: {
+            title: "Une identité claire pour la rénovation.",
             body: [
-              "Renoveo est une plateforme spécialisée dans l’estimation de travaux immobiliers.",
-              "Ce projet concerne la création du logo et de l’identité visuelle associée.",
-              "L’objectif était de créer une identité visuelle professionnelle, moderne et identifiable.",
+              "Renoveo repose sur une identité visuelle simple, professionnelle et rassurante, adaptée à une plateforme d’estimation de travaux.",
             ],
           },
 
-          goals: {
-            title: "Objectifs de l’identité visuelle",
+          highlights: {
             list: [
               "Transmettre une image de confiance",
-              "Évoquer le secteur de la rénovation",
               "Créer un logo simple et mémorisable",
-              "Assurer une cohérence sur tous les supports",
+              "Construire une identité cohérente",
             ],
           },
 
-          process: {
-            title: "Processus de création",
-            list: [
-              "Recherche et analyse du secteur",
-              "Exploration de pistes graphiques",
-              "Sélection et affinage du concept",
-              "Déclinaisons et applications du logo",
-            ],
-          },
-
-          outcome: {
-            title: "Résultat final",
-            body: [
-              "Un logo minimaliste et impactant.",
-              "Une identité visuelle cohérente, adaptable à différents supports.",
-            ],
-          },
-
-          learnings: {
-            title: "Apprentissages",
-            body: [
-              "Renforcement de ma méthodologie de branding",
-              "Capacité à traduire des valeurs en éléments graphiques",
-              "Vision globale de l’identité d’une marque",
-            ],
-          },
-          research: {
-            title: "Charte graphique",
-            gallery: ["/Charte_graphique_Renoveo.jpg"],
+          gallery: {
+            gallery: ["/Charte_graphique_Renoveo.jpg","/Charte_graphique_Renoveo - Copie.jpg","/Charte_graphique_Renoveo - Copie (2).jpg"],
           },
         },
       },
@@ -599,59 +310,26 @@ export const FILTERS: Filter[] = [
         image: "/Service_NHN.jpg",
 
         content: {
-          context: {
-            title: "Contexte du projet",
+          intro: {
+            title: "Un monogramme pour mon univers personnel.",
             body: [
-              "NHN est un site portfolio personnel regroupant l’ensemble de mes projets.",
-              "Il présente principalement des réalisations en développement web, UX/UI design et, ponctuellement, en identité visuelle.",
-              "Ce projet concerne la création du logo et de l’identité visuelle du portfolio.",
+              "NHN est une identité visuelle personnelle pensée pour accompagner mon portfolio et donner une signature reconnaissable à mes projets.",
             ],
           },
 
-          goals: {
-            title: "Objectifs de l’identité visuelle",
+          highlights: {
             list: [
-              "Créer une identité personnelle forte et reconnaissable",
-              "Mettre en valeur des projets orientés développement web",
-              "Assurer une cohérence visuelle sur l’ensemble du site",
-              "Concevoir une identité moderne, sobre et fonctionnelle",
+              "Créer une identité personnelle forte",
+              "Construire un monogramme structuré",
+              "Assurer une cohérence sur tout le portfolio",
             ],
           },
 
-          process: {
-            title: "Processus de création",
-            list: [
-              "Réflexion autour de mon positionnement en tant que développeur web",
-              "Construction d’un monogramme à partir de mon prénom",
-              "Recherche de formes géométriques évoquant structure et logique",
-              "Déclinaisons et intégration du logo dans le portfolio",
-            ],
-          },
-
-          outcome: {
-            title: "Résultat final",
-            body: [
-              "Un logo personnel structuré et identifiable.",
-              "Une identité visuelle cohérente, pensée pour un usage numérique.",
-            ],
-          },
-
-          learnings: {
-            title: "Apprentissages",
-            body: [
-              "Meilleure compréhension du lien entre identité visuelle et développement web",
-              "Renforcement de ma capacité à concevoir des interfaces cohérentes",
-              "Vision globale d’un projet web, de l’identité à l’intégration",
-            ],
-          },
-
-          research: {
-            title: "Charte graphique",
-            gallery: ["/Charte_graphique_NHN.jpg"],
+          gallery: {
+            gallery: ["/Charte_graphique_NHN.jpg","/Charte_graphique_NHN - Copie.jpg"],
           },
         },
       },
-      
     ],
   },
 ];

@@ -19,7 +19,7 @@ const ProjetPage = () => {
 		<>
 			<Hero project={project} />
 
-			{project.content && <Content content={project.content} />}
+			<Content project={project} />
 
 			<Links links={project.links} />
 			<footer className="mt-12">

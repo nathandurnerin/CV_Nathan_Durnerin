@@ -127,3 +127,17 @@ body {
 	background: white;
 	box-shadow: 7px 7px 23px #bebebe, -10px -10px 60px #ffffff;
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-33.333%);
+  }
+}
